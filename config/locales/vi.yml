@@ -1,0 +1,27 @@
+vi:
+  static_pages:
+    about:
+      title: "Về Chúng tôi"
+      ror: "Khóa Hoc Ruby on Rails"
+      the: ""
+      part: ", một phần của"
+      fam: "chuỗi khóa học"
+      is: "là một"
+      book: "cuốn sách"
+      to: "để dạy phát triển web với"
+      this: "Đây là sample app của khóa học này"
+      screen: "screencast series"
+    help:
+      title: "Hỗ trợ"
+      get: "Tìm sự giúp Ruby on Rails Tutorial ở"
+      hpage: "Rails Tutorial trang hỗ trợ"
+      to: "Để tìm sự hỗ trợ trên sampleapp, tìm ở"
+      tuto: "Ruby on Rails khóa học"
+    home:
+      title: "Sample App"
+      this: "Đây là trang chủ của"
+      tuto: "Khóa học Ruby on Rails"
+      sample: "sample application."
+  layouts:
+    application: 
+      sub: "| Khoá học Ruby on Rails "

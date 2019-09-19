@@ -1,0 +1,10 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= t ".get" %>
+  <%= link_to t(".hpage"), "https://www.railstutorial.org/help" %>
+  <%= t(".to") %>
+  <%= link_to "https://www.railstutorial.org/help" do %>
+    <em><%= t(".tuto") %></em>
+  <% end %>
+</p>
