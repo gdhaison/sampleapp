@@ -24,4 +24,4 @@ vi:
       sample: "sample application."
   layouts:
     application: 
-      sub: "| Khoá học Ruby on Rails "
+      sub: " Khoá học Ruby on Rails "
