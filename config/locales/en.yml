@@ -22,6 +22,23 @@ en:
       this: "This is the home page for the"
       tuto: "Ruby on Rails Tutorial"
       sample: "sample application."
+      wel: "Welcome to the Sample App"
+      sign_up: "Sign up now!"
+    contact:
+      title: "Contact"
+      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "Contact Page"
   layouts:
     application:
       sub: " Ruby on Rails Tutorial Sample App"
+    header:
+      sample: "sample app"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+    footer:
+      tuto: "Ruby on Rails Tutorial"
+      by: "by"
+      about: "About"
+      contact: "Contact"
+      new: "New"

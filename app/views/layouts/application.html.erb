@@ -10,7 +10,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render "layouts/header" %>
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
     <%= link_to "English", locale:"en" %>
     <%= link_to "Vietnamese", locale:"vi" %>
   </body>
