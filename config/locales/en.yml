@@ -24,4 +24,4 @@ en:
       sample: "sample application."
   layouts:
     application:
-      sub: "| Ruby on Rails Tutorial Sample App"
+      sub: " Ruby on Rails Tutorial Sample App"
