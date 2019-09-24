@@ -9,6 +9,7 @@ class User < ApplicationRecord
     length: {minimum: Settings.user_pass_length_min}
   before_save :downcase_email
   has_secure_password
+  USER_PARAMS = %i(name email password password_confirmation).freeze
 
   private
 

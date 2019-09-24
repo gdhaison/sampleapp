@@ -31,6 +31,8 @@ en:
   layouts:
     application:
       sub: " Ruby on Rails Tutorial Sample App"
+      en: "English"
+      vi: "Vietnamese"
     header:
       sample: "sample app"
       home: "Home"
@@ -42,3 +44,18 @@ en:
       about: "About"
       contact: "Contact"
       new: "New"
+  users:
+    new:
+      name: "name"
+      email: "Email"
+      pass: "Password"
+      pass_con: "Confirmation"
+      sub: "Submit"
+      title: "Sign up"
+    create:
+      wel: "Welcome to the Sample App!"
+      signup_err: "Sign up error"
+  shared:
+    error_messages:
+      the: "The form contains"
+      error: "error"
