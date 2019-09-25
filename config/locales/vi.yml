@@ -31,6 +31,8 @@ vi:
   layouts:
     application: 
       sub: " Khoá học Ruby on Rails "
+      en: "Tiếng anh"
+      vi: "Tiếng việt"
     header:
       sample: "sample app"
       home: "Trang chủ"
@@ -42,3 +44,18 @@ vi:
       about: "Chi tiết"
       contact: "Liên hệ"
       new: "Bản tin"
+  users:
+    new:
+      name: "Tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      pass_con: "Xác nhận mật khẩu"
+      sub: "Tạo tài khoản"
+      title: "Đăng ký"
+    create:
+      wel: "Chào mừng tới Sample App!"
+      signup_err: "Lỗi đăng nhập"
+  shared:
+    error_messages:
+      the: "Form chứa"
+      error: "Lỗi"

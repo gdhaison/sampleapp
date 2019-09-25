@@ -1,3 +1,5 @@
 user_name_length_max: 50
 user_email_length_max: 250
 user_pass_length_min: 6
+gravatar_size: 80
+gravatar_url: "https://secure.gravatar.com/avatar/#{gravatar_id}?s=#{size}"
