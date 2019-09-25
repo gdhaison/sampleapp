@@ -38,6 +38,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      users: "Users"
+      profile: "Profile"
+      settings: "Settings"
+      log_out: "Log out"
+      acount: "Account"
     footer:
       tuto: "Ruby on Rails Tutorial"
       by: "by"
@@ -59,3 +64,11 @@ en:
     error_messages:
       the: "The form contains"
       error: "error"
+  sessions:
+    new:
+      title: "Log in"
+      email: "Email"
+      password: "Password"
+      log_in: "Log in"
+      new?: "New acount?"
+      sign_up: "Sign up"
