@@ -38,6 +38,11 @@ vi:
       home: "Trang chủ"
       help: "Hỗ trợ"
       log_in: "Đăng nhập"
+      users: "Người dùng"
+      profile: "Cá Nhân"
+      settings: "Cài đặt"
+      log_out: "Đăng xuất"
+      acount: "Tài khoản"
     footer:
       tuto: "Ruby on Rails Tutorial"
       by: "bởi"
@@ -59,3 +64,11 @@ vi:
     error_messages:
       the: "Form chứa"
       error: "Lỗi"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      log_in: "Đăng nhập"
+      new?: "Tài khoản mới?"
+      sign_up: "Đăng ký"
