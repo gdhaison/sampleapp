@@ -3,3 +3,5 @@ user_email_length_max: 250
 user_pass_length_min: 6
 gravatar_size: 160
 valid_email: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+per_page: 10
+gravata_size: 50

@@ -2,7 +2,7 @@ class User < ApplicationRecord
   USER_PARAMS = %i(name email password password_confirmation).freeze
 
   attr_accessor :remember_token
-  
+
   VALID_EMAIL_REGEX = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   validates :name, presence: true,
     length: {maximum: Settings.user_name_length_max}
@@ -13,6 +13,8 @@ class User < ApplicationRecord
     length: {minimum: Settings.user_pass_length_min}
   before_save :downcase_email
   has_secure_password
+
+  scope :order_user, ->{order created_at: :desc}
 
   class << self
     def digest string

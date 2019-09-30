@@ -51,15 +51,30 @@ en:
       new: "New"
   users:
     new:
-      name: "name"
-      email: "Email"
-      pass: "Password"
-      pass_con: "Confirmation"
       sub: "Submit"
       title: "Sign up"
+      btn: "Create"
     create:
       wel: "Welcome to the Sample App!"
       signup_err: "Sign up error"
+    update:
+      update: "Profile is updated"
+      delete: "User is deleted"
+    index:
+      pls: "Please Login"
+      title: "All users"
+    form:
+      name: "Name"
+      email: Email
+      pass: "Password"
+      pass_con: "Password confirmation"
+    user:
+      del: "Delete"
+      sure?: "Are you sure?"
+    edit:
+      title: "Edit profile"
+      btn: "Edit"
+      change: "Change"
   shared:
     error_messages:
       the: "The form contains"

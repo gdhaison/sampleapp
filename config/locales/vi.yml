@@ -51,15 +51,30 @@ vi:
       new: "Bản tin"
   users:
     new:
-      name: "Tên"
-      email: "Email"
-      pass: "Mật khẩu"
-      pass_con: "Xác nhận mật khẩu"
       sub: "Tạo tài khoản"
       title: "Đăng ký"
+      btn: "Tạo tài khỏan"
     create:
       wel: "Chào mừng tới Sample App!"
       signup_err: "Lỗi đăng nhập"
+    update:
+      update: "Thông tin đã được update"
+      delete: "Người dùng đã bị xóa"
+    index:
+      pls: "Hãy Đăng nhập"
+      title: "Danh sách Users"
+    form:
+      name: "tên"
+      email: "Email"
+      pass: "Mật khẩu"
+      pass_con: "Xác nhận mật khẩu"
+    user:
+      del: "Xoá"
+      sure?: "Chắc chưa"
+    edit:
+      title: "Sửa thông tin"
+      btn: "Sửa"
+      change: "Sửa"
   shared:
     error_messages:
       the: "Form chứa"
