@@ -57,6 +57,7 @@ en:
     create:
       wel: "Welcome to the Sample App!"
       signup_err: "Sign up error"
+      pls: "Please check your email to activate your account."
     update:
       update: "Profile is updated"
       delete: "User is deleted"
@@ -75,6 +76,8 @@ en:
       title: "Edit profile"
       btn: "Edit"
       change: "Change"
+    show:
+      cant_find: "Cannot find"
   shared:
     error_messages:
       the: "The form contains"
@@ -88,3 +91,19 @@ en:
       new?: "New acount?"
       sign_up: "Sign up"
       remember: "Remember me on this computer"
+    create:
+      notactive: "Account have not activated yet, Check your email for the activation link."
+  account_activations:
+    edit:
+      activated: "Account Activated"
+      invalid: "Invalid link"
+      cant_find: "Cannot find"
+  user_mailer:
+    account_activation:
+      wel: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"
+      hi: "Hi"
+
+mailer:
+  user_mailer:
+    acount: "Account activation"
