@@ -93,6 +93,7 @@ vi:
       remember: "Nhớ tài khoản của tôi"
       create:
       notactive: "Tài khoản chưa được activate, Check email để lấy link"
+      forgot_pass: "(Quên mật khẩu)"
   account_activations:
     edit:
       activated: "Tài khoản đã được kích hoạt"
@@ -103,6 +104,33 @@ vi:
       wel: "Chào mừng, ấn vào link bên dưới để activate"
       activate: "Kích hoạt"
       hi: "Chào"
+    password_reset:
+      to: "Để reset pass ấn link sau đây"
+      this: "Link có thời hạn trong 2h"
+      if: "Nếu không phải bạn hay bỏ qua email này"
+      reset: "Đổi mật khẩu"
+      exprire: "Link có thời hạn trong 2h"
+  password_resets:
+    create:
+      sent: "Email đã được gửi"
+      not_found: "Email không tìm thấy"
+      cant_empty: "Không thể để trống"
+      reseted: "Pass đã được đổi"
+      fails: "Đổi không thành công"
+    check_expiration:
+      exprire: "Mã đã hết hạn"
+    new:
+      forgot: "Quên mật khẩu"
+      mail: "Email"
+      submit: "Đổi mật khẩu"
+    edit:
+      title: "Đổi mật khẩu"
+      pass: "Mật khẩu"
+      con: "Xác nhận"
+      update: "Đổi mật khẩu"
+      cant_find: "Không tìm thấy người dùng"
+    update:
+      cant_find: "Không tìm thấy người dùng"
 mailer:
   user_mailer:
     acount: "Tài khoản đã được kích hoạt"
