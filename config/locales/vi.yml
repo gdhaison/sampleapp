@@ -57,6 +57,7 @@ vi:
     create:
       wel: "Chào mừng tới Sample App!"
       signup_err: "Lỗi đăng nhập"
+      pls: "Check email để activate "
     update:
       update: "Thông tin đã được update"
       delete: "Người dùng đã bị xóa"
@@ -75,6 +76,8 @@ vi:
       title: "Sửa thông tin"
       btn: "Sửa"
       change: "Sửa"
+    show:
+      cant_find: "Không thể tìm thấy"
   shared:
     error_messages:
       the: "Form chứa"
@@ -88,3 +91,18 @@ vi:
       new?: "Tài khoản mới?"
       sign_up: "Đăng ký"
       remember: "Nhớ tài khoản của tôi"
+      create:
+      notactive: "Tài khoản chưa được activate, Check email để lấy link"
+  account_activations:
+    edit:
+      activated: "Tài khoản đã được kích hoạt"
+      invalid: "Link không đúng"
+      cant_find: "Không thể tìm thấy"
+  user_mailer:
+    account_activation:
+      wel: "Chào mừng, ấn vào link bên dưới để activate"
+      activate: "Kích hoạt"
+      hi: "Chào"
+mailer:
+  user_mailer:
+    acount: "Tài khoản đã được kích hoạt"
