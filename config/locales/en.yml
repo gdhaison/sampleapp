@@ -24,6 +24,7 @@ en:
       sample: "sample application."
       wel: "Welcome to the Sample App"
       sign_up: "Sign up now!"
+      micropost: "Micropost"
     contact:
       title: "Contact"
       contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
@@ -78,10 +79,17 @@ en:
       change: "Change"
     show:
       cant_find: "Cannot find"
+      post: "Micropost"
   shared:
     error_messages:
       the: "The form contains"
       error: "error"
+    micropost_form:
+      compose: "Compose new post"
+      post: "Post"
+    user_info:
+      view: "View profile"
+      micropost: "micropost"
   sessions:
     new:
       title: "Log in"
@@ -133,6 +141,18 @@ en:
       cant_find: "Cannot find user"
     update:
       cant_find: "Cannot find user"
+  microposts:
+    create:
+      less: "Less than 5Mb"
+      created: "Micropost created"
+    delete:
+      deleted: "Micropost deleted"
+    _micropost:
+      delete: "Delete"
+      sure?: "Are you sure?"
+      post: "Posted"
+    destroy:
+      cannot_delete: "Cannot Delete"
 mailer:
   user_mailer:
     acount: "Account activation"

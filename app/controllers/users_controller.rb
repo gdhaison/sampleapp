@@ -25,7 +25,9 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.per_page
+  end
 
   def edit; end
 
@@ -48,13 +50,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit User::USER_PARAMS
-  end
-
-  def logged_in_user
-    return if logged_in?
-    store_location
-    flash[:danger] = t ".pls"
-    redirect_to login_url
   end
 
   def correct_user
