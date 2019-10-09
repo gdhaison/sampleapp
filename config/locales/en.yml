@@ -91,6 +91,7 @@ en:
       new?: "New acount?"
       sign_up: "Sign up"
       remember: "Remember me on this computer"
+      forgot_pass: "(Forgot password)"
     create:
       notactive: "Account have not activated yet, Check your email for the activation link."
   account_activations:
@@ -103,7 +104,36 @@ en:
       wel: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
       hi: "Hi"
-
+    password_reset:
+      to: "To reset your password click the link below:"
+      this: "This link will expire in two hours."
+      if: "If you did not request your password to be reset, please ignore this email and
+        your password will stay as it is."
+      reset: "Reset password"
+      exprire: "This link will expire in two hours."
+  password_resets:
+    create:
+      sent: "Email sent with password reset instructions"
+      not_found: "Email address not found"
+      cant_empty: "can't be empty"
+      reseted: "Password has been reset."
+      fails: "Update Fails"
+    check_expiration:
+      exprire: "Password reset has expired."
+    new:
+      forgot: "Forgot password"
+      mail: "Email"
+      submit: "Submit"
+    edit:
+      title: "Reset password"
+      pass: "Password"
+      con: "Confirmation"
+      update: "Update password"
+      exprire: "Password reset has expired."
+      cant_find: "Cannot find user"
+    update:
+      cant_find: "Cannot find user"
 mailer:
   user_mailer:
     acount: "Account activation"
+    reset: "Password reset"

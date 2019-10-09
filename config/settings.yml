@@ -5,3 +5,4 @@ gravatar_size: 160
 valid_email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 per_page: 10
 gravata_size: 50
+expire: 2
