@@ -20,7 +20,7 @@ class UsersController < ApplicationController
       flash[:info] = t ".pls"
       redirect_to root_url
     else
-      flash[:danger] = t ".signup_err"
+      flash.now[:danger] = t ".signup_err"
       render :new
     end
   end

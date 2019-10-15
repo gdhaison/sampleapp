@@ -80,6 +80,13 @@ vi:
     show:
       cant_find: "Không thể tìm thấy"
       post: "Bài đăng"
+    follow:
+      follow: "Theo dõi"
+    unfollow:
+      unfollow: "Bỏ theo dõi"
+    show_follow:
+      view: "Xem trang cá nhân"
+      micro: "Bài đăng: "
   shared:
     error_messages:
       the: "Form chứa"
@@ -90,6 +97,9 @@ vi:
     user_info:
       view: "xem thông tin"
       micropost: "bài đăng"
+    stats:
+      following: "Đang theo dõi"
+      follower: "Người theo dõi"
   sessions:
     new:
       title: "Đăng nhập"
@@ -151,6 +161,12 @@ vi:
       post: "Đăng"
     destroy:
       cannot_delete: "Không thể xóa"
+  followings:
+    index:
+      following: "Theo dõi"
+  followers:
+    index:
+      followers: "Được theo dõi"
 mailer:
   user_mailer:
     acount: "Tài khoản đã được kích hoạt"
