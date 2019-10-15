@@ -24,6 +24,7 @@ vi:
       sample: "sample application."
       wel: "Chào mừng tới sample app"
       sign_up: "Đăng ký ngay!"
+      micropost: "Bài đăng"
     contact:
       title: "Contact"
       contact: "Liên hệ Ruby on Rails Tutorial ở"
@@ -78,10 +79,17 @@ vi:
       change: "Sửa"
     show:
       cant_find: "Không thể tìm thấy"
+      post: "Bài đăng"
   shared:
     error_messages:
       the: "Form chứa"
       error: "Lỗi"
+    micropost_form:
+      compose: "Tạo post mới"
+      post: "Đăng"
+    user_info:
+      view: "xem thông tin"
+      micropost: "bài đăng"
   sessions:
     new:
       title: "Đăng nhập"
@@ -131,6 +139,18 @@ vi:
       cant_find: "Không tìm thấy người dùng"
     update:
       cant_find: "Không tìm thấy người dùng"
+  microposts:
+    create:
+      less: "Nhỏ hơn 5Mb"
+      created: "Bài đăng đã đưuọc tạo"
+    delete:
+      deleted: "Micropost đã xóa"
+    micropost:
+      delete: "Xóa"
+      sure?: "Chắc chưa"
+      post: "Đăng"
+    destroy:
+      cannot_delete: "Không thể xóa"
 mailer:
   user_mailer:
     acount: "Tài khoản đã được kích hoạt"

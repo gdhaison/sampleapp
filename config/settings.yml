@@ -6,3 +6,6 @@ valid_email: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 per_page: 10
 gravata_size: 50
 expire: 2
+picture_size: 5
+content: 140
+resize: 400
