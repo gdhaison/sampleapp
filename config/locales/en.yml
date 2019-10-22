@@ -80,6 +80,13 @@ en:
     show:
       cant_find: "Cannot find"
       post: "Micropost"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unffolow"
+    show_follow:
+      view: "view my profile"
+      micro: "Microposts: "
   shared:
     error_messages:
       the: "The form contains"
@@ -90,6 +97,9 @@ en:
     user_info:
       view: "View profile"
       micropost: "micropost"
+    stats:
+      following: "Followings"
+      follower: "Followers"
   sessions:
     new:
       title: "Log in"
@@ -153,6 +163,12 @@ en:
       post: "Posted"
     destroy:
       cannot_delete: "Cannot Delete"
+  followings:
+    index:
+      following: "Followings"
+  followers:
+    index:
+      followers: "Followeds"
 mailer:
   user_mailer:
     acount: "Account activation"

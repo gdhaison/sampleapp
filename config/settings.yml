@@ -9,3 +9,4 @@ expire: 2
 picture_size: 5
 content: 140
 resize: 400
+size_of_gravatar: 30
